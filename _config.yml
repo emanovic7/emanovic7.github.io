@@ -1,0 +1,21 @@
+# Site settings
+title: Code Friend, And Enter!
+header-img: img/home-bg.png
+email: e_owusu@live.com
+copyright_name: emanovic7
+description: > # this means to ignore newlines until "baseurl:"
+  Coding is like journeying into Mordor. 
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  emanovic7
+learn_profile: emanovic7
+email_username: e_owusu@live.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
